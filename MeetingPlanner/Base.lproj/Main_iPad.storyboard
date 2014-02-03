@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="6b4-1a-ID7">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ExR-LN-prJ">
+            <objects>
+                <navigationController id="6b4-1a-ID7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="6eu-PC-Uyq">
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cgo-qY-ceE" kind="relationship" relationship="rootViewController" id="Lm6-sI-HIU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DtW-UH-BVN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-589" y="-60"/>
+        </scene>
+        <!--Main Page View Controller - Time Zone Convertor-->
+        <scene sceneID="8A1-gr-ceI">
+            <objects>
+                <viewController id="cgo-qY-ceE" customClass="SHAMainPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d5o-Yt-Q8U">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="1JM-ku-JMF">
+                                <rect key="frame" x="0.0" y="65" width="1024" height="55"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98594826459884644" green="0.0" blue="0.026950567960739136" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="75" maxX="0.0" maxY="-65"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="30" sectionFooterHeight="22" id="8Ws-Bu-wDz">
+                                <rect key="frame" x="0.0" y="120" width="1024" height="663"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="insetFor6xAndEarlier" minX="0.0" minY="75" maxX="0.0" maxY="-75"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="mycell" id="eg2-pE-b7Y" customClass="SHATzListCell">
+                                        <rect key="frame" x="0.0" y="30" width="1024" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eg2-pE-b7Y" id="SIh-cN-L2e">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="cgo-qY-ceE" id="FKE-OQ-6ZH"/>
+                                    <outlet property="delegate" destination="cgo-qY-ceE" id="pRX-Ez-oav"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Time Zone Convertor" id="QG4-3v-Ra6">
+                        <barButtonItem key="leftBarButtonItem" title="Elvun" id="4zD-d2-PGX">
+                            <connections>
+                                <action selector="elvunButton:" destination="cgo-qY-ceE" id="VSw-Hc-EbU"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="today" id="fdZ-yr-Ch5">
+                            <connections>
+                                <action selector="todayButton:" destination="cgo-qY-ceE" id="Nqd-dk-BFf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="tableView" destination="8Ws-Bu-wDz" id="hmO-lf-m39"/>
+                        <outlet property="timezoneNamesContainer" destination="1JM-ku-JMF" id="WSF-BD-pZN"/>
+                        <segue destination="cXs-xa-pIv" kind="push" identifier="TimeZoneSelectionSegue" id="qdO-u2-Xri"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sLH-8O-sEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="267" y="-66"/>
+        </scene>
+        <!--Time Zone Selection View Controller-->
+        <scene sceneID="t1O-m8-KJa">
+            <objects>
+                <tableViewController id="cXs-xa-pIv" customClass="SHATimeZoneSelectionViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="AH9-l8-fWe">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="search" showsSearchResultsButton="YES" id="fQr-le-AIe">
+                            <rect key="frame" x="0.0" y="64" width="1024" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="cXs-xa-pIv" id="ObM-OO-pA6"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timeZoneSelectionCell" id="CQb-Lf-x9n" customClass="SHATimeZoneSeletctionCell">
+                                <rect key="frame" x="0.0" y="130" width="1024" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CQb-Lf-x9n" id="ctS-Rj-hcj">
+                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="54"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O6c-h2-SMw">
+                                            <rect key="frame" x="20" y="11" width="207" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+11:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sEm-Qp-BbH">
+                                            <rect key="frame" x="665" y="33" width="83" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="America" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pVD-MV-9xq">
+                                            <rect key="frame" x="20" y="33" width="181" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="offsetLabel" destination="sEm-Qp-BbH" id="ltV-9G-9Gb"/>
+                                    <outlet property="regionLabel" destination="pVD-MV-9xq" id="leg-5O-AAy"/>
+                                    <outlet property="titleLabel" destination="O6c-h2-SMw" id="NHT-v2-9iF"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cXs-xa-pIv" id="Mrc-5b-7aX"/>
+                            <outlet property="delegate" destination="cXs-xa-pIv" id="n1E-tw-jv9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="dzu-PO-QqC">
+                        <barButtonItem key="rightBarButtonItem" title="Delete" id="NnV-a7-iXT">
+                            <connections>
+                                <action selector="deleteButtonAction:" destination="cXs-xa-pIv" id="ecI-Jw-pPp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="deleteButton" destination="NnV-a7-iXT" id="a12-Os-PV1"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Mz-iJ-pbo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339" y="-50"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

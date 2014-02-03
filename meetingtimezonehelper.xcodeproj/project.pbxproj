@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7778035A182550B800457026 /* timeZoneHelperAppstorIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77780356182550B800457026 /* timeZoneHelperAppstorIcon.jpg */; };
+		7778035B182550B800457026 /* timeZoneHelperIcon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 77780357182550B800457026 /* timeZoneHelperIcon60.png */; };
+		777803621825521500457026 /* Launch 640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 7778035C1825521500457026 /* Launch 640x960.png */; };
+		777803631825521500457026 /* Launch 640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 7778035D1825521500457026 /* Launch 640x1136.png */; };
+		777803641825521500457026 /* Launch 768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7778035E1825521500457026 /* Launch 768x1024.png */; };
+		777803651825521500457026 /* Launch 768x1024@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7778035F1825521500457026 /* Launch 768x1024@2.png */; };
+		777803661825521500457026 /* Launch 1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 777803601825521500457026 /* Launch 1024x768.png */; };
+		777803671825521500457026 /* Launch 1024x768@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 777803611825521500457026 /* Launch 1024x768@2.png */; };
+		7786CEE0182524A6000BF4E8 /* timeZoneHelperAppstorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CED5182524A6000BF4E8 /* timeZoneHelperAppstorIcon.png */; };
+		7786CEE1182524A6000BF4E8 /* timeZoneHelperIcon100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CED6182524A6000BF4E8 /* timeZoneHelperIcon100.png */; };
+		7786CEE2182524A6000BF4E8 /* timeZoneHelperIcon144.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CED7182524A6000BF4E8 /* timeZoneHelperIcon144.png */; };
+		7786CEE3182524A6000BF4E8 /* timeZoneHelperIcon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CED8182524A6000BF4E8 /* timeZoneHelperIcon152.png */; };
+		7786CEE4182524A6000BF4E8 /* timeZoneHelperIcon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CED9182524A6000BF4E8 /* timeZoneHelperIcon29.png */; };
+		7786CEE5182524A6000BF4E8 /* timeZoneHelperIcon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDA182524A6000BF4E8 /* timeZoneHelperIcon40.png */; };
+		7786CEE6182524A6000BF4E8 /* timeZoneHelperIcon50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDB182524A6000BF4E8 /* timeZoneHelperIcon50.png */; };
+		7786CEE7182524A6000BF4E8 /* timeZoneHelperIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDC182524A6000BF4E8 /* timeZoneHelperIcon58.png */; };
+		7786CEE8182524A6000BF4E8 /* timeZoneHelperIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDD182524A6000BF4E8 /* timeZoneHelperIcon72.png */; };
+		7786CEE9182524A6000BF4E8 /* timeZoneHelperIcon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDE182524A6000BF4E8 /* timeZoneHelperIcon76.png */; };
+		7786CEEA182524A6000BF4E8 /* timeZoneHelperIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEDF182524A6000BF4E8 /* timeZoneHelperIcon80.png */; };
+		7786CEEC182528F8000BF4E8 /* timeZoneHelperIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7786CEEB182528F8000BF4E8 /* timeZoneHelperIcon120.png */; };
+		77F20267182FB4AC00E9DB1B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F20266182FB4AC00E9DB1B /* Crashlytics.framework */; };
+		F259056B181929EE00787567 /* SHATimeZoneHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F259056A181929EE00787567 /* SHATimeZoneHelper.m */; };
+		F259057018192A4A00787567 /* SHARegion.m in Sources */ = {isa = PBXBuildFile; fileRef = F259056D18192A4A00787567 /* SHARegion.m */; };
+		F259057118192A4A00787567 /* SHATimeZoneWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F259056F18192A4A00787567 /* SHATimeZoneWrapper.m */; };
+		F2590574181AB51A00787567 /* SHAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2590573181AB51A00787567 /* SHAButton.m */; };
+		F2590577181BCE2800787567 /* SHATimeZone.m in Sources */ = {isa = PBXBuildFile; fileRef = F2590576181BCE2800787567 /* SHATimeZone.m */; };
+		F259057A181BD19200787567 /* SHATimeZoneSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2590579181BD19200787567 /* SHATimeZoneSelectionViewController.m */; };
+		F259057D181BD5B600787567 /* SHATimeZoneSeletctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F259057C181BD5B600787567 /* SHATimeZoneSeletctionCell.m */; };
+		F2590580181BE5F400787567 /* SHALocalDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F259057F181BE5F400787567 /* SHALocalDatabase.m */; };
+		F2A1225D1819145A00823331 /* SHAMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1225C1819145A00823331 /* SHAMainPageViewController.m */; };
+		F2A1226018191C3C00823331 /* SHALabelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A1225F18191C3C00823331 /* SHALabelGenerator.m */; };
+		F2A65D7818166829004EB2EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D7718166829004EB2EE /* Foundation.framework */; };
+		F2A65D7A18166829004EB2EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D7918166829004EB2EE /* CoreGraphics.framework */; };
+		F2A65D7C18166829004EB2EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D7B18166829004EB2EE /* UIKit.framework */; };
+		F2A65D8218166829004EB2EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2A65D8018166829004EB2EE /* InfoPlist.strings */; };
+		F2A65D8418166829004EB2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A65D8318166829004EB2EE /* main.m */; };
+		F2A65D8818166829004EB2EE /* SHAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A65D8718166829004EB2EE /* SHAAppDelegate.m */; };
+		F2A65D8B18166829004EB2EE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A65D8918166829004EB2EE /* Main_iPhone.storyboard */; };
+		F2A65D8E18166829004EB2EE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A65D8C18166829004EB2EE /* Main_iPad.storyboard */; };
+		F2A65D9D18166829004EB2EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D9C18166829004EB2EE /* XCTest.framework */; };
+		F2A65D9E18166829004EB2EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D7718166829004EB2EE /* Foundation.framework */; };
+		F2A65D9F18166829004EB2EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A65D7B18166829004EB2EE /* UIKit.framework */; };
+		F2A65DA718166829004EB2EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2A65DA518166829004EB2EE /* InfoPlist.strings */; };
+		F2A65DA918166829004EB2EE /* MeetingPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A65DA818166829004EB2EE /* MeetingPlannerTests.m */; };
+		F2A65DBD18166FFA004EB2EE /* SHATzListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A65DBC18166FFA004EB2EE /* SHATzListCell.m */; };
+		F2A65DC4181675E2004EB2EE /* SHADateTimeCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A65DC3181675E2004EB2EE /* SHADateTimeCellItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2A65DA018166829004EB2EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A65D6C18166829004EB2EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2A65D7318166829004EB2EE;
+			remoteInfo = MeetingPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77780356182550B800457026 /* timeZoneHelperAppstorIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeZoneHelperAppstorIcon.jpg; sourceTree = "<group>"; };
+		77780357182550B800457026 /* timeZoneHelperIcon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon60.png; sourceTree = "<group>"; };
+		7778035C1825521500457026 /* Launch 640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 640x960.png"; sourceTree = "<group>"; };
+		7778035D1825521500457026 /* Launch 640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 640x1136.png"; sourceTree = "<group>"; };
+		7778035E1825521500457026 /* Launch 768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 768x1024.png"; sourceTree = "<group>"; };
+		7778035F1825521500457026 /* Launch 768x1024@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 768x1024@2.png"; sourceTree = "<group>"; };
+		777803601825521500457026 /* Launch 1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 1024x768.png"; sourceTree = "<group>"; };
+		777803611825521500457026 /* Launch 1024x768@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch 1024x768@2.png"; sourceTree = "<group>"; };
+		7786CED5182524A6000BF4E8 /* timeZoneHelperAppstorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperAppstorIcon.png; sourceTree = "<group>"; };
+		7786CED6182524A6000BF4E8 /* timeZoneHelperIcon100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon100.png; sourceTree = "<group>"; };
+		7786CED7182524A6000BF4E8 /* timeZoneHelperIcon144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon144.png; sourceTree = "<group>"; };
+		7786CED8182524A6000BF4E8 /* timeZoneHelperIcon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon152.png; sourceTree = "<group>"; };
+		7786CED9182524A6000BF4E8 /* timeZoneHelperIcon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon29.png; sourceTree = "<group>"; };
+		7786CEDA182524A6000BF4E8 /* timeZoneHelperIcon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon40.png; sourceTree = "<group>"; };
+		7786CEDB182524A6000BF4E8 /* timeZoneHelperIcon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon50.png; sourceTree = "<group>"; };
+		7786CEDC182524A6000BF4E8 /* timeZoneHelperIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon58.png; sourceTree = "<group>"; };
+		7786CEDD182524A6000BF4E8 /* timeZoneHelperIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon72.png; sourceTree = "<group>"; };
+		7786CEDE182524A6000BF4E8 /* timeZoneHelperIcon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon76.png; sourceTree = "<group>"; };
+		7786CEDF182524A6000BF4E8 /* timeZoneHelperIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon80.png; sourceTree = "<group>"; };
+		7786CEEB182528F8000BF4E8 /* timeZoneHelperIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeZoneHelperIcon120.png; sourceTree = "<group>"; };
+		77F20266182FB4AC00E9DB1B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		F2590569181929EE00787567 /* SHATimeZoneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATimeZoneHelper.h; sourceTree = "<group>"; };
+		F259056A181929EE00787567 /* SHATimeZoneHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATimeZoneHelper.m; sourceTree = "<group>"; };
+		F259056C18192A4A00787567 /* SHARegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHARegion.h; sourceTree = "<group>"; };
+		F259056D18192A4A00787567 /* SHARegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHARegion.m; sourceTree = "<group>"; };
+		F259056E18192A4A00787567 /* SHATimeZoneWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATimeZoneWrapper.h; sourceTree = "<group>"; };
+		F259056F18192A4A00787567 /* SHATimeZoneWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATimeZoneWrapper.m; sourceTree = "<group>"; };
+		F2590572181AB51A00787567 /* SHAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAButton.h; sourceTree = "<group>"; };
+		F2590573181AB51A00787567 /* SHAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAButton.m; sourceTree = "<group>"; };
+		F2590575181BCE2800787567 /* SHATimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATimeZone.h; sourceTree = "<group>"; };
+		F2590576181BCE2800787567 /* SHATimeZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATimeZone.m; sourceTree = "<group>"; };
+		F2590578181BD19200787567 /* SHATimeZoneSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATimeZoneSelectionViewController.h; sourceTree = "<group>"; };
+		F2590579181BD19200787567 /* SHATimeZoneSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATimeZoneSelectionViewController.m; sourceTree = "<group>"; };
+		F259057B181BD5B600787567 /* SHATimeZoneSeletctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATimeZoneSeletctionCell.h; sourceTree = "<group>"; };
+		F259057C181BD5B600787567 /* SHATimeZoneSeletctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATimeZoneSeletctionCell.m; sourceTree = "<group>"; };
+		F259057E181BE5F400787567 /* SHALocalDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHALocalDatabase.h; sourceTree = "<group>"; };
+		F259057F181BE5F400787567 /* SHALocalDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHALocalDatabase.m; sourceTree = "<group>"; };
+		F2A1225B1819145A00823331 /* SHAMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAMainPageViewController.h; sourceTree = "<group>"; };
+		F2A1225C1819145A00823331 /* SHAMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAMainPageViewController.m; sourceTree = "<group>"; };
+		F2A1225E18191C3C00823331 /* SHALabelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHALabelGenerator.h; sourceTree = "<group>"; };
+		F2A1225F18191C3C00823331 /* SHALabelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHALabelGenerator.m; sourceTree = "<group>"; };
+		F2A65D7418166829004EB2EE /* Time Zone Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Zone Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A65D7718166829004EB2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2A65D7918166829004EB2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2A65D7B18166829004EB2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2A65D7F18166829004EB2EE /* meetingtimezonehelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "meetingtimezonehelper-Info.plist"; sourceTree = "<group>"; };
+		F2A65D8118166829004EB2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2A65D8318166829004EB2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2A65D8518166829004EB2EE /* meetingtimezonehelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meetingtimezonehelper-Prefix.pch"; sourceTree = "<group>"; };
+		F2A65D8618166829004EB2EE /* SHAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAAppDelegate.h; sourceTree = "<group>"; };
+		F2A65D8718166829004EB2EE /* SHAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAAppDelegate.m; sourceTree = "<group>"; };
+		F2A65D8A18166829004EB2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F2A65D8D18166829004EB2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F2A65D9B18166829004EB2EE /* meetingtimezonehelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meetingtimezonehelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A65D9C18166829004EB2EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2A65DA418166829004EB2EE /* MeetingPlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeetingPlannerTests-Info.plist"; sourceTree = "<group>"; };
+		F2A65DA618166829004EB2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2A65DA818166829004EB2EE /* MeetingPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingPlannerTests.m; sourceTree = "<group>"; };
+		F2A65DBB18166FFA004EB2EE /* SHATzListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHATzListCell.h; sourceTree = "<group>"; };
+		F2A65DBC18166FFA004EB2EE /* SHATzListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHATzListCell.m; sourceTree = "<group>"; };
+		F2A65DC2181675E2004EB2EE /* SHADateTimeCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHADateTimeCellItem.h; sourceTree = "<group>"; };
+		F2A65DC3181675E2004EB2EE /* SHADateTimeCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHADateTimeCellItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2A65D7118166829004EB2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A65D7A18166829004EB2EE /* CoreGraphics.framework in Frameworks */,
+				F2A65D7C18166829004EB2EE /* UIKit.framework in Frameworks */,
+				77F20267182FB4AC00E9DB1B /* Crashlytics.framework in Frameworks */,
+				F2A65D7818166829004EB2EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A65D9818166829004EB2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A65D9D18166829004EB2EE /* XCTest.framework in Frameworks */,
+				F2A65D9F18166829004EB2EE /* UIKit.framework in Frameworks */,
+				F2A65D9E18166829004EB2EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7786CED4182524A6000BF4E8 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				7778035C1825521500457026 /* Launch 640x960.png */,
+				7778035D1825521500457026 /* Launch 640x1136.png */,
+				7778035E1825521500457026 /* Launch 768x1024.png */,
+				7778035F1825521500457026 /* Launch 768x1024@2.png */,
+				777803601825521500457026 /* Launch 1024x768.png */,
+				777803611825521500457026 /* Launch 1024x768@2.png */,
+				77780356182550B800457026 /* timeZoneHelperAppstorIcon.jpg */,
+				7786CED5182524A6000BF4E8 /* timeZoneHelperAppstorIcon.png */,
+				7786CED6182524A6000BF4E8 /* timeZoneHelperIcon100.png */,
+				7786CEEB182528F8000BF4E8 /* timeZoneHelperIcon120.png */,
+				7786CED7182524A6000BF4E8 /* timeZoneHelperIcon144.png */,
+				7786CED8182524A6000BF4E8 /* timeZoneHelperIcon152.png */,
+				7786CED9182524A6000BF4E8 /* timeZoneHelperIcon29.png */,
+				7786CEDA182524A6000BF4E8 /* timeZoneHelperIcon40.png */,
+				7786CEDB182524A6000BF4E8 /* timeZoneHelperIcon50.png */,
+				7786CEDC182524A6000BF4E8 /* timeZoneHelperIcon58.png */,
+				77780357182550B800457026 /* timeZoneHelperIcon60.png */,
+				7786CEDD182524A6000BF4E8 /* timeZoneHelperIcon72.png */,
+				7786CEDE182524A6000BF4E8 /* timeZoneHelperIcon76.png */,
+				7786CEDF182524A6000BF4E8 /* timeZoneHelperIcon80.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		F2A1225A1819141600823331 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1225B1819145A00823331 /* SHAMainPageViewController.h */,
+				F2A1225C1819145A00823331 /* SHAMainPageViewController.m */,
+				F2590578181BD19200787567 /* SHATimeZoneSelectionViewController.h */,
+				F2590579181BD19200787567 /* SHATimeZoneSelectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2A65D6B18166829004EB2EE = {
+			isa = PBXGroup;
+			children = (
+				F2A65D7D18166829004EB2EE /* MeetingPlanner */,
+				F2A65DA218166829004EB2EE /* MeetingPlannerTests */,
+				F2A65D7618166829004EB2EE /* Frameworks */,
+				F2A65D7518166829004EB2EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A65D7518166829004EB2EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A65D7418166829004EB2EE /* Time Zone Helper.app */,
+				F2A65D9B18166829004EB2EE /* meetingtimezonehelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A65D7618166829004EB2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F20266182FB4AC00E9DB1B /* Crashlytics.framework */,
+				F2A65D7718166829004EB2EE /* Foundation.framework */,
+				F2A65D7918166829004EB2EE /* CoreGraphics.framework */,
+				F2A65D7B18166829004EB2EE /* UIKit.framework */,
+				F2A65D9C18166829004EB2EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2A65D7D18166829004EB2EE /* MeetingPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				F2A65DB918166FFA004EB2EE /* Core */,
+				F2A65D8618166829004EB2EE /* SHAAppDelegate.h */,
+				F2A65D8718166829004EB2EE /* SHAAppDelegate.m */,
+				F2A65D8918166829004EB2EE /* Main_iPhone.storyboard */,
+				F2A65D8C18166829004EB2EE /* Main_iPad.storyboard */,
+				F2A65D7E18166829004EB2EE /* Supporting Files */,
+			);
+			path = MeetingPlanner;
+			sourceTree = "<group>";
+		};
+		F2A65D7E18166829004EB2EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7786CED4182524A6000BF4E8 /* Icons */,
+				F2A65D7F18166829004EB2EE /* meetingtimezonehelper-Info.plist */,
+				F2A65D8018166829004EB2EE /* InfoPlist.strings */,
+				F2A65D8318166829004EB2EE /* main.m */,
+				F2A65D8518166829004EB2EE /* meetingtimezonehelper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A65DA218166829004EB2EE /* MeetingPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A65DA818166829004EB2EE /* MeetingPlannerTests.m */,
+				F2A65DA318166829004EB2EE /* Supporting Files */,
+			);
+			path = MeetingPlannerTests;
+			sourceTree = "<group>";
+		};
+		F2A65DA318166829004EB2EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2A65DA418166829004EB2EE /* MeetingPlannerTests-Info.plist */,
+				F2A65DA518166829004EB2EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A65DB918166FFA004EB2EE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F2A1225A1819141600823331 /* Controllers */,
+				F2A65DC1181675E2004EB2EE /* Classes */,
+				F2A65DBA18166FFA004EB2EE /* Cells */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F2A65DBA18166FFA004EB2EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F2A65DBB18166FFA004EB2EE /* SHATzListCell.h */,
+				F2A65DBC18166FFA004EB2EE /* SHATzListCell.m */,
+				F259057B181BD5B600787567 /* SHATimeZoneSeletctionCell.h */,
+				F259057C181BD5B600787567 /* SHATimeZoneSeletctionCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F2A65DC1181675E2004EB2EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2590572181AB51A00787567 /* SHAButton.h */,
+				F2590573181AB51A00787567 /* SHAButton.m */,
+				F2A65DC2181675E2004EB2EE /* SHADateTimeCellItem.h */,
+				F2A65DC3181675E2004EB2EE /* SHADateTimeCellItem.m */,
+				F2A1225E18191C3C00823331 /* SHALabelGenerator.h */,
+				F2A1225F18191C3C00823331 /* SHALabelGenerator.m */,
+				F259057E181BE5F400787567 /* SHALocalDatabase.h */,
+				F259057F181BE5F400787567 /* SHALocalDatabase.m */,
+				F259056C18192A4A00787567 /* SHARegion.h */,
+				F259056D18192A4A00787567 /* SHARegion.m */,
+				F2590575181BCE2800787567 /* SHATimeZone.h */,
+				F2590576181BCE2800787567 /* SHATimeZone.m */,
+				F2590569181929EE00787567 /* SHATimeZoneHelper.h */,
+				F259056A181929EE00787567 /* SHATimeZoneHelper.m */,
+				F259056E18192A4A00787567 /* SHATimeZoneWrapper.h */,
+				F259056F18192A4A00787567 /* SHATimeZoneWrapper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2A65D7318166829004EB2EE /* meetingtimezonehelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A65DAC18166829004EB2EE /* Build configuration list for PBXNativeTarget "meetingtimezonehelper" */;
+			buildPhases = (
+				F2A65D7018166829004EB2EE /* Sources */,
+				F2A65D7118166829004EB2EE /* Frameworks */,
+				F2A65D7218166829004EB2EE /* Resources */,
+				77F20265182FB46000E9DB1B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meetingtimezonehelper;
+			productName = MeetingPlanner;
+			productReference = F2A65D7418166829004EB2EE /* Time Zone Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2A65D9A18166829004EB2EE /* meetingtimezonehelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A65DAF18166829004EB2EE /* Build configuration list for PBXNativeTarget "meetingtimezonehelperTests" */;
+			buildPhases = (
+				F2A65D9718166829004EB2EE /* Sources */,
+				F2A65D9818166829004EB2EE /* Frameworks */,
+				F2A65D9918166829004EB2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A65DA118166829004EB2EE /* PBXTargetDependency */,
+			);
+			name = meetingtimezonehelperTests;
+			productName = MeetingPlannerTests;
+			productReference = F2A65D9B18166829004EB2EE /* meetingtimezonehelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A65D6C18166829004EB2EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SHA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Shaghayegh;
+				TargetAttributes = {
+					F2A65D7318166829004EB2EE = {
+						DevelopmentTeam = QAN35P66CX;
+					};
+					F2A65D9A18166829004EB2EE = {
+						TestTargetID = F2A65D7318166829004EB2EE;
+					};
+				};
+			};
+			buildConfigurationList = F2A65D6F18166829004EB2EE /* Build configuration list for PBXProject "meetingtimezonehelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2A65D6B18166829004EB2EE;
+			productRefGroup = F2A65D7518166829004EB2EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A65D7318166829004EB2EE /* meetingtimezonehelper */,
+				F2A65D9A18166829004EB2EE /* meetingtimezonehelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2A65D7218166829004EB2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7786CEE9182524A6000BF4E8 /* timeZoneHelperIcon76.png in Resources */,
+				777803641825521500457026 /* Launch 768x1024.png in Resources */,
+				7786CEE3182524A6000BF4E8 /* timeZoneHelperIcon152.png in Resources */,
+				7778035B182550B800457026 /* timeZoneHelperIcon60.png in Resources */,
+				7786CEEA182524A6000BF4E8 /* timeZoneHelperIcon80.png in Resources */,
+				7786CEEC182528F8000BF4E8 /* timeZoneHelperIcon120.png in Resources */,
+				7786CEE0182524A6000BF4E8 /* timeZoneHelperAppstorIcon.png in Resources */,
+				777803651825521500457026 /* Launch 768x1024@2.png in Resources */,
+				7786CEE6182524A6000BF4E8 /* timeZoneHelperIcon50.png in Resources */,
+				777803631825521500457026 /* Launch 640x1136.png in Resources */,
+				7786CEE8182524A6000BF4E8 /* timeZoneHelperIcon72.png in Resources */,
+				7786CEE4182524A6000BF4E8 /* timeZoneHelperIcon29.png in Resources */,
+				777803671825521500457026 /* Launch 1024x768@2.png in Resources */,
+				7786CEE1182524A6000BF4E8 /* timeZoneHelperIcon100.png in Resources */,
+				F2A65D8E18166829004EB2EE /* Main_iPad.storyboard in Resources */,
+				F2A65D8B18166829004EB2EE /* Main_iPhone.storyboard in Resources */,
+				777803661825521500457026 /* Launch 1024x768.png in Resources */,
+				7786CEE7182524A6000BF4E8 /* timeZoneHelperIcon58.png in Resources */,
+				7778035A182550B800457026 /* timeZoneHelperAppstorIcon.jpg in Resources */,
+				7786CEE5182524A6000BF4E8 /* timeZoneHelperIcon40.png in Resources */,
+				777803621825521500457026 /* Launch 640x960.png in Resources */,
+				F2A65D8218166829004EB2EE /* InfoPlist.strings in Resources */,
+				7786CEE2182524A6000BF4E8 /* timeZoneHelperIcon144.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A65D9918166829004EB2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A65DA718166829004EB2EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F20265182FB46000E9DB1B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 6d77897a4291d8654a376118358be7001f76fcca";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2A65D7018166829004EB2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A65DC4181675E2004EB2EE /* SHADateTimeCellItem.m in Sources */,
+				F2590577181BCE2800787567 /* SHATimeZone.m in Sources */,
+				F2A1226018191C3C00823331 /* SHALabelGenerator.m in Sources */,
+				F2590574181AB51A00787567 /* SHAButton.m in Sources */,
+				F2A65DBD18166FFA004EB2EE /* SHATzListCell.m in Sources */,
+				F2A1225D1819145A00823331 /* SHAMainPageViewController.m in Sources */,
+				F259057018192A4A00787567 /* SHARegion.m in Sources */,
+				F259056B181929EE00787567 /* SHATimeZoneHelper.m in Sources */,
+				F2590580181BE5F400787567 /* SHALocalDatabase.m in Sources */,
+				F259057D181BD5B600787567 /* SHATimeZoneSeletctionCell.m in Sources */,
+				F2A65D8418166829004EB2EE /* main.m in Sources */,
+				F259057118192A4A00787567 /* SHATimeZoneWrapper.m in Sources */,
+				F2A65D8818166829004EB2EE /* SHAAppDelegate.m in Sources */,
+				F259057A181BD19200787567 /* SHATimeZoneSelectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A65D9718166829004EB2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A65DA918166829004EB2EE /* MeetingPlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2A65DA118166829004EB2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2A65D7318166829004EB2EE /* meetingtimezonehelper */;
+			targetProxy = F2A65DA018166829004EB2EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2A65D8018166829004EB2EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A65D8118166829004EB2EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2A65D8918166829004EB2EE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A65D8A18166829004EB2EE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F2A65D8C18166829004EB2EE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A65D8D18166829004EB2EE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F2A65DA518166829004EB2EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A65DA618166829004EB2EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2A65DAA18166829004EB2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2A65DAB18166829004EB2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2A65DAD18166829004EB2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vt/GitHubRepo/TzHelper/MeetingPlanner,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingPlanner/meetingtimezonehelper-Prefix.pch";
+				INFOPLIST_FILE = "MeetingPlanner/meetingtimezonehelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Time Zone Helper";
+				PROVISIONING_PROFILE = "1B2D5D4E-1155-4D55-A55B-092A0D6F84FF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2A65DAE18166829004EB2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Elvun LLC (QAN35P66CX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vt/GitHubRepo/TzHelper/MeetingPlanner,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingPlanner/meetingtimezonehelper-Prefix.pch";
+				INFOPLIST_FILE = "MeetingPlanner/meetingtimezonehelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Time Zone Helper";
+				PROVISIONING_PROFILE = "1B2D5D4E-1155-4D55-A55B-092A0D6F84FF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2A65DB018166829004EB2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeetingPlanner.app/MeetingPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingPlanner/MeetingPlanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeetingPlannerTests/MeetingPlannerTests-Info.plist";
+				PRODUCT_NAME = meetingtimezonehelperTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F2A65DB118166829004EB2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MeetingPlanner.app/MeetingPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeetingPlanner/MeetingPlanner-Prefix.pch";
+				INFOPLIST_FILE = "MeetingPlannerTests/MeetingPlannerTests-Info.plist";
+				PRODUCT_NAME = meetingtimezonehelperTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2A65D6F18166829004EB2EE /* Build configuration list for PBXProject "meetingtimezonehelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A65DAA18166829004EB2EE /* Debug */,
+				F2A65DAB18166829004EB2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A65DAC18166829004EB2EE /* Build configuration list for PBXNativeTarget "meetingtimezonehelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A65DAD18166829004EB2EE /* Debug */,
+				F2A65DAE18166829004EB2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A65DAF18166829004EB2EE /* Build configuration list for PBXNativeTarget "meetingtimezonehelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A65DB018166829004EB2EE /* Debug */,
+				F2A65DB118166829004EB2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A65D6C18166829004EB2EE /* Project object */;
+}
